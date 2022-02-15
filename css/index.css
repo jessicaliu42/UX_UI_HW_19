@@ -20,13 +20,29 @@ body{
     text-align: center;
 } 
 .header nav ul li a:hover{
-    color: black;
-    border-bottom: .25rem solid black;
+    color: #F2B705;
+    border-bottom: .25rem solid #F2B705;
 }
-.active{
-    color: black !important;
-    border-bottom: .25rem solid black !important;
+.skillrings{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
 }
+.headingLeft{
+    /* text-align: center; */
+    /* width: 150px;
+    position: absolute; */
+}
+.skillrings li{
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 .navbar-light .navbar-toggler{
     color:#43D9BD;
 }
@@ -47,7 +63,7 @@ main{
     text-align: center;
     justify-content: center;
     width: 100%;
-    padding-top: 400px;
+    padding-top: 20%;
 }
 .myname{
     font-size: 78px;
@@ -82,7 +98,7 @@ main{
 .section{
     margin: 0;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 section h1{
     font-family: 'Knewave', cursive;
@@ -104,11 +120,10 @@ section h1{
     padding: 100px;
   display: grid;
     grid-template-columns:30% 1fr;
-    grid-template-rows: 12% 20% 1fr;
+    grid-template-rows: 20% 1fr;
     grid-template-areas: 
     "img intro"
-    "img skills"
-    "img socialmedia";
+    "img skills";
     column-gap: 80px;
 }
 .intro{
@@ -121,26 +136,21 @@ section h1{
 }
 .skill{
     grid-area:skills;
-}
-.socialmedia{
-    grid-area:socialmedia;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-}
-.socialmedia li{
-    display: inline-block;
-    padding:0px 20px 20px 20px;
+    width: 700px;
 }
 .work{
-    height:150vh;
+    /* height:200vh; */
 }
 .work h2{
     text-align: center;
 }
+.work h4{
+    text-align: center;
+    padding: 20px;
+}
 .worklist{
     list-style-type: none;
-    margin: 50px 200px 0px 200px;
+    margin: 0px 200px 0px 200px;
     text-align: center;
     display: flex;
 }
@@ -150,8 +160,20 @@ section h1{
 .worklist li img{
     width: 300px;
 }
+.frontendworklist{
+    width: 100%;
+    text-align: center;
+    max-width: 960px;
+}
+.container{
+   
+}
+.frontendworklist h4{
+    padding: 15px;
+}
 .work{
-    background-color: grey;
+    background-color: #401404;
+    color: white;
 }
 .resume{
     background-color: white;
@@ -238,8 +260,9 @@ section h1{
     position: relative;
   }
 .contact{
-    background-color: grey;
-    height: 90vh;
+    background-color: #401404;
+    color: white;
+    /* height: 90vh; */
 }
 .contactContent{
     /* padding-left: 350px; */

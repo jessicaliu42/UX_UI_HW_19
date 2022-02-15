@@ -34,4 +34,59 @@ $(document).ready(function () {
       $(this).addClass("active");
   });
 
+             var circle = document.getElementById("circle_1");
+              var circle2 = document.getElementById("circle_2");
+              var circle3 = document.getElementById("circle_3");
+              var circle4 = document.getElementById("circle10");
+              var circle5 = document.getElementById("circle11");
+              var circle6 = document.getElementById("circle12");
+              var circle7 = document.getElementById("circle1");
+              var circle8 = document.getElementById("circle2");
+              var circle9 = document.getElementById("circle3");
+              var circel10 = document.getElementById("circle4");
+              var circel11 = document.getElementById("circle5");
+              var circel12 = document.getElementById("circle6");
+              var circel13 = document.getElementById("circle14");
+
+              function setProgress(circle, percent) {
+                  var radius = circle.r.baseVal.value;
+                  var circumference = radius * 2 * Math.PI;
+                    circle.style.strokeDasharray = circumference;
+                    const offset = (1 - percent / 100) * circumference;
+                    circle.style.strokeDashoffset = offset;
+                }
+                
+                setProgress(circle, 30);
+                setProgress(circle2, 30);
+                setProgress(circle3, 75);
+                setProgress(circle4, 80);
+                setProgress(circle5, 50);
+                setProgress(circle6, 60);
+                setProgress(circle7, 85);
+                setProgress(circle8, 90);
+                setProgress(circle9, 70);
+                setProgress(circel10, 50);
+                setProgress(circel11, 80);
+                setProgress(circel12, 30);
+                setProgress(circel13, 40);
+
+
+
+                var myEvents = [{
+                  date: 'Q1 - 2017',
+                  content: 'Lorem ipsum dolor sit amet'
+                },{
+                  date: 'Q2 - 2017',
+                  content: 'Lorem ipsum dolor sit amet'
+                },{
+                  date: 'Q3 - 2017',
+                  content: 'Lorem ipsum dolor sit amet'
+                },
+                {
+                  date: 'Q3 - 2018',
+                  content: 'Lorem ipsum dolor sit amet'
+                }
+            ];
+            $('#my-timeline').roadmap(myEvents);
+
 });
