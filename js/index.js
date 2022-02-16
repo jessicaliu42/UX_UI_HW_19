@@ -73,18 +73,22 @@ $(document).ready(function () {
 
 
                 var myEvents = [{
-                  date: 'Q1 - 2017',
-                  content: 'Lorem ipsum dolor sit amet'
+                  date: '2009-2012',
+                  content: 'graduated with a Bachelor of Arts in Animation from Savannah College of Art and Design'
                 },{
-                  date: 'Q2 - 2017',
-                  content: 'Lorem ipsum dolor sit amet'
+                  date: '2014-2018',
+                  content: 'worked as a front-end eingineer at CommonWealth Magazine Group in Taiwan'
                 },{
-                  date: 'Q3 - 2017',
-                  content: 'Lorem ipsum dolor sit amet'
+                  date: '2019',
+                  content: 'worked as a front-end UI developer at Otosense in CA, USA'
                 },
                 {
-                  date: 'Q3 - 2018',
-                  content: 'Lorem ipsum dolor sit amet'
+                  date: '2020',
+                  content: 'taught HTML, CSS, and JS as online instructor at Nucamp'
+                },
+                {
+                  date: '2021-2022',
+                  content: 'graduated with a certication in UX/UI from Georgia Tech'
                 }
             ];
             $('#my-timeline').roadmap(myEvents);

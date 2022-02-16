@@ -45,10 +45,8 @@
         <div>
             <h1>About Me</h1>
             <div class="aboutmeContent">
-                <img class="meimage" src="asset/photo-1552664688-cf412ec27db2.jpeg">
-                <p class="intro">I graduated in Animation major from Savannah College of Art and Design in 2012. I like to draw when I was kid. At the same time, I interested in all kind of Technology as well. After learned coding in a short time of period, I was lucky enough to become front-end engineering for 5 years in both country, Taiwan and USA. 
-                    I can’t step away the problem that needs to be solve. I loved to see problem solve. 
-                    Knowing UX/UI development, I believed myself can help to make a better products, and also make a better developing process in the teams. 
+                <img class="meimage" src="asset/IMG_8301.jpg">
+                <p class="intro">I graduated with a Bachelor of Arts in Animation from Savannah College of Art and Design in 2012. I enjoyed drawing as a child. I am interested in all kinds of Technology as well. After learning coding in a short time period, I was fortunate to become a front-end engineer for five years in both Taiwan and the United States. I cannot step away from a problem that needs to be solved.  I love to see a problem solved!  My knowledge of UX/UI gives me the unique ability to communicate well with research and designer team members. Additionally, it gives me the knowledge to make better products. 
                 </p>
                 <div class="skill">
                     <p>My skills are ...</p>
@@ -195,19 +193,31 @@
             <div>
                 <h2>UX/UI</h2>
                 <h4>2021-2022</h4>
-                <ul class="worklist">
-                        <li>
-                            <img src="asset/photo-1564630322990-4a9e93d13946.jpeg">
-                            <h4>The Non-Profit Organization
-                                 Website Redesign</h4>
-                        </li>
-                        <li>
-                            <img src="asset/edgovRedesign.png">
-                            <h4>The Government Agency 
-                                Website Redesign</h4>
-                                <a href="/caseStudy1.html">Go</a>
-                        </li>
-                </ul>
+                <div class="worklist container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                        <img src="asset/nonproRedesign.png" class="card-img-top" alt="img">
+                                        <div class="card-body">
+                                          <h5 class="card-title"><a href="/caseStudy1.html" target="_blank"class="card-link">The Non-Profit Organization
+                                            Website Redesign</a></h5>
+                                          <p class="card-text cardUXUI-text">This is a group project of 3 UI designers. The goal of this project is to develop a more trustworthy and professional website that will bring in more donors to increase the company's outreach.</p>
+                                        </div>
+                                    </div>
+                        </div>
+                            <div class="col-sm">
+                                    <div class="card" style="width: 18rem;">
+                                            <img src="asset/edgovRedesign.png" class="card-img-top" alt="img">
+                                            <div class="card-body">
+                                              <h5 class="card-title"><a href="/caseStudy1.html" target="_blank"class="card-link">The Government Agency 
+                                                Website Redesign</a></h5>
+                                              <p class="card-text cardUXUI-text">My role is a UI designer. This project is to redesign a better website’s navigation that solve all the pain points base on user testings.</p> 
+                                            </div>
+                                        </div>
+                            </div>
+                    </div>
+
+                </div>
             </div>
             <div class="frontendworklist container-fluid">
                 <h2>Front-end</h2>
@@ -240,53 +250,42 @@
                 </div>
                 <!-- 2019 Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                         <div class="modal-content">
+                                <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
                             <div class="modal-body">
-                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    <div id="carouselIndicators2019" class="carousel slide" data-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                            <li data-target="#carouselIndicators2019" data-slide-to="0" class="active"></li>
-                                            </ol>
+                                    <div id="carouselIndicators2019" class="carousel slide" data-bs-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img src="./assets/2019/00.png" class="d-block w-100" alt="img">
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselIndicators2019" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselIndicators2019" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                            </a>
                                     </div>
-                                    <div class="card-info-text">
+                            </div>
+                            <div class="modal-footer">
                                     <a href="https://github.com/dgaitsgo/info-vis-volkswagen" target="_blank" class="btn btn-primary">View Site</a>
-                                   
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>           
                 <!-- 2018 Modal -->
                 <div class="modal fade" id="work002018" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                             <div class="modal-content">
+                                    <div class="modal-header">
+                                            <!-- <h5 class="modal-title">Modal title</h5> -->
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
                                 <div class="modal-body">
-                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                                <ol class="carousel-indicators">
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                                </ol>
+                                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                                <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"  aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                <lbutton type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                </div>
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
                                                         <img src="./assets/2018/00nowater/00.png" class="d-block w-100" alt="img">
@@ -301,37 +300,37 @@
                                                         <img src="./assets/2018/00nowater/03.png" class="d-block w-100" alt="img">
                                                     </div>
                                                 </div>
-                                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                                </a>
-                                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                                </a>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
                                         </div>
-                                        <div class="card-info-text">
-                                        <a href="https://topic.cw.com.tw/2018watershed/story.html" target="_blank" class="btn btn-primary">View Site</a>
-                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://topic.cw.com.tw/2018watershed/story.html" target="_blank" class="btn btn-primary">View Site</a>
                                 </div>
                             </div>
                         </div>
                 </div>
                 <div class="modal fade" id="work012018" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
+                            <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                                 <div class="modal-content">
+                                        <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
                                     <div class="modal-body">
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            <div id="carouselIndicators012018" class="carousel slide" data-ride="carousel">
-                                                    <ol class="carousel-indicators">
-                                                    <li data-target="#carouselIndicators012018" data-slide-to="0" class="active"></li>
-                                                    <li data-target="#carouselIndicators012018" data-slide-to="1"></li>
-                                                    <li data-target="#carouselIndicators012018" data-slide-to="2"></li>
-                                                    <li data-target="#carouselIndicators012018" data-slide-to="3"></li>
-                                                    <li data-target="#carouselIndicators012018" data-slide-to="4"></li>
-                                                    </ol>
+                                            <div id="carouselIndicators012018" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                                    <div class="carousel-indicators">
+                                                    <button type="button" data-bs-target="#carouselIndicators012018" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselIndicators012018" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselIndicators012018" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#carouselIndicators012018" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                    <button type="button" data-bs-target="#carouselIndicators012018" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                                    </div>
                                                     <div class="carousel-inner">
                                                         <div class="carousel-item active">
                                                             <img src="./assets/2018/01election/01.png" class="d-block w-100" alt="img">
@@ -349,19 +348,19 @@
                                                             <img src="./assets/2018/01election/05.png" class="d-block w-100" alt="img">
                                                         </div>
                                                     </div>
-                                                    <a class="carousel-control-prev" href="#carouselIndicators012018" role="button" data-slide="prev">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                    <span class="sr-only">Previous</span>
-                                                    </a>
-                                                    <a class="carousel-control-next" href="#carouselIndicators012018" role="button" data-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                    <span class="sr-only">Next</span>
-                                                    </a>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators012018" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                          </button>
+                                                          <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators012018" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                          </button>
                                             </div>
-                                            <div class="card-info-text">
-                                            <a href="https://topic.cw.com.tw/politicaldynasty2018/" target="_blank" class="btn btn-primary">View Site</a>
                                         </div>
-                                        </div>
+                                        <div class="modal-footer">
+                                                <a href="https://topic.cw.com.tw/politicaldynasty2018/" target="_blank" class="btn btn-primary">View Site</a>
+                                            </div>
                                 </div>
                             </div>
                 </div>
@@ -422,20 +421,20 @@
                 </div>
                 <!-- 2017work-->
                 <div class="modal fade" id="work002017" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                             <div class="modal-content">
+                                    <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
                                 <div class="modal-body">
-                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        <div id="carouselIndicators002017" class="carousel slide" data-ride="carousel">
-                                                <ol class="carousel-indicators">
-                                                <li data-target="#carouselIndicators002017" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carouselIndicators002017" data-slide-to="1"></li>
-                                                <li data-target="#carouselIndicators002017" data-slide-to="2"></li>
-                                                <li data-target="#carouselIndicators002017" data-slide-to="3"></li>
-                                                <li data-target="#carouselIndicators002017" data-slide-to="4"></li>
-                                                </ol>
+                                        <div id="carouselIndicators002017" class="carousel carousel-dark slide" data-ride="carousel">
+                                                <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselIndicators002017" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselIndicators002017" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselIndicators002017" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselIndicators002017" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                <button type="button" data-bs-target="#carouselIndicators002017" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                                </div>
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
                                                         <img src="./assets/2017/00bendo/00.png" class="d-block w-100" alt="img">
@@ -453,36 +452,36 @@
                                                         <img src="./assets/2017/00bendo/04.png" class="d-block w-100" alt="img">
                                                     </div>
                                                 </div>
-                                                <a class="carousel-control-prev" href="#carouselIndicators002017" role="button" data-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                                </a>
-                                                <a class="carousel-control-next" href="#carouselIndicators002017" role="button" data-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                                </a>
-                                        </div>
-                                        <div class="card-info-text">
-                                            <a href="https://topic.cw.com.tw/anniversary/2017/quiz.html" target="_blank" class="btn btn-primary">View Site</a>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators002017" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                      </button>
+                                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators002017" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                      </button>
                                         </div>
                                 </div>
+                                <div class="modal-footer">
+                                        <a href="https://topic.cw.com.tw/anniversary/2017/quiz.html" target="_blank" class="btn btn-primary">View Site</a>
+                                    </div>
                             </div>
                         </div>
                 </div>
                 <div class="modal fade" id="work012017" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
+                            <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                                 <div class="modal-content">
+                                        <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
                                     <div class="modal-body">
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            <div id="carouselIndicators012017" class="carousel slide" data-ride="carousel">
-                                                    <ol class="carousel-indicators">
-                                                    <li data-target="#carouselIndicators012017" data-slide-to="0" class="active"></li>
-                                                    <li data-target="#carouselIndicators012017" data-slide-to="1"></li>
-                                                    <li data-target="#carouselIndicators012017" data-slide-to="2"></li>
-                                                    <li data-target="#carouselIndicators012017" data-slide-to="3"></li>
-                                                    </ol>
+                                            <div id="carouselIndicators012017" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                                    <div class="carousel-indicators">
+                                                    <button type="button" data-bs-target="#carouselIndicators012017" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselIndicators012017" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselIndicators012017" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#carouselIndicators012017" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                    </div>
                                                     <div class="carousel-inner">
                                                         <div class="carousel-item active">
                                                             <img src="./assets/2017/01southasia/00.png" class="d-block w-100" alt="img">
@@ -497,36 +496,36 @@
                                                             <img src="./assets/2017/01southasia/03.png" class="d-block w-100" alt="img">
                                                         </div>
                                                     </div>
-                                                    <a class="carousel-control-prev" href="#carouselIndicators012017" role="button" data-slide="prev">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                    <span class="sr-only">Previous</span>
-                                                    </a>
-                                                    <a class="carousel-control-next" href="#carouselIndicators012017" role="button" data-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                    <span class="sr-only">Next</span>
-                                                    </a>
-                                            </div>
-                                            <div class="card-info-text">
-                                            <a href="https://topic.cw.com.tw/2017Asean/" target="_blank" class="btn btn-primary">View Site</a>
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators012017" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                          </button>
+                                                          <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators012017" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                          </button>
                                             </div>
                                     </div>
+                                    <div class="modal-footer">
+                                            <a href="https://topic.cw.com.tw/2017Asean/" target="_blank" class="btn btn-primary">View Site</a>
+                                            </div>
                                 </div>
                             </div>
                 </div>
                 <div class="modal fade" id="work022017" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                             <div class="modal-content">
+                                    <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
                                 <div class="modal-body">
-                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        <div id="carouselIndicators022017" class="carousel slide" data-ride="carousel">
-                                                <ol class="carousel-indicators">
-                                                <li data-target="#carouselIndicators022017" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carouselIndicators022017" data-slide-to="1"></li>
-                                                <li data-target="#carouselIndicators022017" data-slide-to="2"></li>
-                                                <li data-target="#carouselIndicators022017" data-slide-to="3"></li>
-                                                </ol>
+                                        <div id="carouselIndicators022017" class="carousel carousel-dark  slide" data-bs-ride="carousel">
+                                                <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselIndicators022017" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselIndicators022017" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselIndicators022017" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselIndicators022017" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                </div>
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
                                                         <img src="./assets/2017/02outsource/00.png" class="d-block w-100" alt="img">
@@ -541,40 +540,40 @@
                                                         <img src="./assets/2017/02outsource/03.png" class="d-block w-100" alt="img">
                                                     </div>
                                                 </div>
-                                                <a class="carousel-control-prev" href="#carouselIndicators022017" role="button" data-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                                </a>
-                                                <a class="carousel-control-next" href="#carouselIndicators022017" role="button" data-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                                </a>
-                                        </div>
-                                        <div class="card-info-text">
-                                        <a href="https://topic.cw.com.tw/underpaid/" target="_blank" class="btn btn-primary">View Site</a>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators022017" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                      </button>
+                                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators022017" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                      </button>
                                         </div>
                                 </div>
+                                <div class="modal-footer">
+                                        <a href="https://topic.cw.com.tw/underpaid/" target="_blank" class="btn btn-primary">View Site</a>
+                                        </div>
                             </div>
                         </div>
                 </div>
                 <div class="modal fade" id="work032017" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                             <div class="modal-content">
+                                    <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
                                 <div class="modal-body">
-                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        <div id="carouselIndicators032017" class="carousel slide" data-ride="carousel">
-                                                <ol class="carousel-indicators">
-                                                <li data-target="#carouselIndicators032017" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carouselIndicators032017" data-slide-to="1"></li>
-                                                <li data-target="#carouselIndicators032017" data-slide-to="2"></li>
-                                                <li data-target="#carouselIndicators032017" data-slide-to="3"></li>
-                                                <li data-target="#carouselIndicators032017" data-slide-to="4"></li>
-                                                <li data-target="#carouselIndicators032017" data-slide-to="5"></li>
-                                                <li data-target="#carouselIndicators032017" data-slide-to="6"></li>
-                                                <li data-target="#carouselIndicators032017" data-slide-to="7"></li>
-                                                </ol>
+                                        <div id="carouselIndicators032017" class="carousel carousel-dark slide" data-ride="carousel">
+                                                <div class="carousel-indicators">
+                                                 <button type="button" data-bs-target="#carouselIndicators032017" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                                 <button type="button" data-bs-target="#carouselIndicators032017" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                                                 <button type="button" data-bs-target="#carouselIndicators032017" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                                                 <button type="button" data-bs-target="#carouselIndicators032017" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                                                 <button type="button" data-bs-target="#carouselIndicators032017" data-bs-slide-to="4" aria-label="Slide 4"></button>
+                                                 <button type="button" data-bs-target="#carouselIndicators032017" data-bs-slide-to="5" aria-label="Slide 5"></button>
+                                                 <button type="button" data-bs-target="#carouselIndicators032017" data-bs-slide-to="6" aria-label="Slide 6"></button>
+                                                 <button type="button" data-bs-target="#carouselIndicators032017" data-bs-slide-to="7" aria-label="Slide 7"></button>
+                                                </div>
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
                                                         <img src="./assets/2017/03electric/00.png" class="d-block w-100" alt="img">
@@ -601,37 +600,38 @@
                                                         <img src="./assets/2017/03electric/07.png" class="d-block w-100" alt="img">
                                                     </div>
                                                 </div>
-                                                <a class="carousel-control-prev" href="#carouselIndicators032017" role="button" data-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                                </a>
-                                                <a class="carousel-control-next" href="#carouselIndicators032017" role="button" data-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                                </a>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators032017" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                      </button>
+                                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators032017" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                      </button>
                                         </div>
-                                        <div class="card-info-text">
+                                       
+                                </div>
+                                <div class="modal-footer">
                                         <a href="https://topic.cw.com.tw/2017energy/" target="_blank" class="btn btn-primary">View Site</a>
                                         </div>
-                                </div>
                             </div>
                         </div>
                 </div>
                 <div class="modal fade" id="work042017" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                         <div class="modal-content">
+                                <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
                             <div class="modal-body">
-                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    <div id="carouselIndicators042017" class="carousel slide" data-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                            <li data-target="#carouselIndicators042017" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselIndicators042017" data-slide-to="1"></li>
-                                            <li data-target="#carouselIndicators042017" data-slide-to="2"></li>
-                                            <li data-target="#carouselIndicators042017" data-slide-to="3"></li>
-                                            <li data-target="#carouselIndicators042017" data-slide-to="4"></li>
-                                            </ol>
+                                    <div id="carouselIndicators042017" class="carousel carousel-dark slide" data-ride="carousel">
+                                            <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselIndicators042017" data-bs-slide-to="0" class="active"aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators042017" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators042017" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators042017" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators042017" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img src="./assets/2017/04women/00.png" class="d-block w-100" alt="img">
@@ -649,37 +649,37 @@
                                                     <img src="./assets/2017/04women/04.png" class="d-block w-100" alt="img">
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselIndicators042017" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselIndicators042017" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                            </a>
-                                    </div>
-                                    <div class="card-info-text">
-                                    <a href="http://topic.cheers.com.tw/issue/2017/workingwomen/" target="_blank" class="btn btn-primary">View Site</a>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators042017" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators042017" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
                                     </div>
                             </div>
+                            <div class="modal-footer">
+                                    <a href="http://topic.cheers.com.tw/issue/2017/workingwomen/" target="_blank" class="btn btn-primary">View Site</a>
+                                    </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal fade" id="work052017" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                         <div class="modal-content">
+                                <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
                             <div class="modal-body">
-                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    <div id="carouselIndicators052017" class="carousel slide" data-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                            <li data-target="#carouselIndicators052017" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselIndicators052017" data-slide-to="1"></li>
-                                            <li data-target="#carouselIndicators052017" data-slide-to="2"></li>
-                                            <li data-target="#carouselIndicators052017" data-slide-to="3"></li>
-                                            <li data-target="#carouselIndicators052017" data-slide-to="4"></li>
-                                            </ol>
+                                    <div id="carouselIndicators052017" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                            <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselIndicators052017" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators052017" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators052017" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators052017" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators052017" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img src="./assets/2017/05longtermcare/00.png" class="d-block w-100" alt="img">
@@ -691,19 +691,19 @@
                                                     <img src="./assets/2017/05longtermcare/02.png" class="d-block w-100" alt="img">
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselIndicators052017" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselIndicators052017" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                            </a>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators052017" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators052017" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                            </button>
                                     </div>
-                                    <div class="card-info-text">
+                            </div>
+                            <div class="modal-footer">
                                     <a href="https://topic.cw.com.tw/2018longtermcare/" target="_blank" class="btn btn-primary">View Site</a>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -737,20 +737,20 @@
                 </div>
                 <!-- 2016 modal -->
                 <div class="modal fade" id="work002016" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                         <div class="modal-content">
+                                <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
                             <div class="modal-body">
-                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    <div id="carouselIndicators002016" class="carousel slide" data-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                            <li data-target="#carouselIndicators002016" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselIndicators002016" data-slide-to="1"></li>
-                                            <li data-target="#carouselIndicators002016" data-slide-to="2"></li>
-                                            <li data-target="#carouselIndicators002016" data-slide-to="3"></li>
-                                            <li data-target="#carouselIndicators002016" data-slide-to="4"></li>
-                                            </ol>
+                                    <div id="carouselIndicators002016" class="carousel carousel-dark  slide" data-bs-ride="carousel">
+                                            <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselIndicators002016" data-bs-slide-to="0" class="active"aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators002016" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators002016" data-bs-slide-to="2" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators002016" data-bs-slide-to="3" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators002016" data-bs-slide-to="4" aria-label="Slide 1"></button>
+                                            </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img src="./assets/2016/00farm/00.png" class="d-block w-100" alt="img">
@@ -771,36 +771,37 @@
                                                     <img src="./assets/2016/00farm/05.png" class="d-block w-100" alt="img">
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselIndicators002016" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselIndicators002016" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                            </a>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators002016" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators002016" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
                                     </div>
-                                    <div class="card-info-text">
+                                   
+                            </div>
+                            <div class="modal-footer">
                                     <a href="http://topic.cw.com.tw/2016landfactory/" target="_blank" class="btn btn-primary">View Site</a>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal fade" id="work012016" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                         <div class="modal-content">
+                                <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
                             <div class="modal-body">
-                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    <div id="carouselIndicators012016" class="carousel slide" data-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                            <li data-target="#carouselIndicators012016" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselIndicators012016" data-slide-to="1"></li>
-                                            <li data-target="#carouselIndicators012016" data-slide-to="2"></li>
-                                            <li data-target="#carouselIndicators012016" data-slide-to="3"></li>
-                                            </ol>
+                                    <div id="carouselIndicators012016" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                            <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselIndicators012016" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators012016" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators012016" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators012016" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img src="./assets/2016/01digitalBritish/00.png" class="d-block w-100" alt="img">
@@ -815,38 +816,38 @@
                                                     <img src="./assets/2016/01digitalBritish/03.png" class="d-block w-100" alt="img">
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselIndicators012016" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselIndicators012016" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                            </a>
-                                    </div>
-                                    <div class="card-info-text">
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators012016" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators012016" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                    </div>  
+                            </div>
+                            <div class="modal-footer">
                                     <a href="https://topic.cw.com.tw/TechNationUK/index.html" target="_blank" class="btn btn-primary">View Site</a>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal fade" id="work022016" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
                         <div class="modal-content">
+                                <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
                             <div class="modal-body">
-                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    <div id="carouselIndicators022016" class="carousel slide" data-ride="carousel">
-                                            <ol class="carousel-indicators">
-                                            <li data-target="#carouselIndicators022016" data-slide-to="0" class="active"></li>
-                                            <li data-target="#carouselIndicators022016" data-slide-to="1"></li>
-                                            <li data-target="#carouselIndicators022016" data-slide-to="2"></li>
-                                            <li data-target="#carouselIndicators022016" data-slide-to="3"></li>
-                                            <li data-target="#carouselIndicators022016" data-slide-to="4"></li>
-                                            <li data-target="#carouselIndicators022016" data-slide-to="5"></li>
-                                            </ol>
+                                    <div id="carouselIndicators022016" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                            <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselIndicators022016" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators022016" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators022016" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators022016" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators022016" data-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#carouselIndicators022016" data-slide-to="5" aria-label="Slide 6"></button>
+                                            </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
                                                     <img src="./assets/2016/02southasia/00.png" class="d-block w-100" alt="img">
@@ -867,19 +868,19 @@
                                                     <img src="./assets/2016/02southasia/05.png" class="d-block w-100" alt="img">
                                                 </div>
                                             </div>
-                                            <a class="carousel-control-prev" href="#carouselIndicators022016" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselIndicators022016" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                            </a>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators022016" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators022016" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
                                     </div>
-                                    <div class="card-info-text">
-                                    <a href="http://topic.cw.com.tw/2016Asean/city.html" target="_blank" class="btn btn-primary">View Site</a>
                                 </div>
-                                </div>
+                                <div class="modal-footer">
+                                        <a href="http://topic.cw.com.tw/2016Asean/city.html" target="_blank" class="btn btn-primary">View Site</a>
+                                    </div>
                         </div>
                     </div>
                 </div>
@@ -891,11 +892,11 @@
     <section id="resume" class="section resume">
         <!--resume-->
          <h1>Resume</h1>
-        <div id="my-timeline"></div>
-        <div class="resumeContent">
-            <p class="resumeintro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lectus ac id cras ut luctus eu. Facilisi vitae blandit dictum cursus pharetra suspendisse velit mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lectus ac id cras ut luctus eu. Facilisi vitae blandit dictum cursus pharetra suspendisse velit mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lectus ac id cras ut luctus eu. Facilisi vitae blandit dictum cursus pharetra suspendisse velit mi. </p>
-            <button class="resumebutton" role="button"><span class="text">Download Resume</span></button>
-        </div>
+            <div class="resumeContent">
+                    <div id="my-timeline"></div>
+                <p class="resumeintro">Interaction Designer with a B.S. in animation and a certificate from Georgia Tech professional education in UX research and UI design.  Skilled in photoshop, HTML5, CSS, Javascript, Bootstrap, JQuery, and user-centric design research with a proficiency in delivering user experiences and website development across desktop, mobile, and tabet. As a front-end developer, I collaborated with a team to successfully meet brandinging and technical requirements for various projects including websites/landing pages.Specialising in user research, usability testing, information architecture, interaction design, and website development I aim to create interfaces that bring users joy and increase brand loyalty. Here's my resume and my personal timeline in the industry. Feel Free to download my resume if you are interested.</p>
+                <button class="resumebutton" role="button" onclick="location.href='https://drive.google.com/file/d/1ZnuwLDV7-Fvj5HHG7BmP2fs9WqhWTwhm/view?usp=sharing'"><span class="text">Download Resume</span></button>
+            </div>
     </section>
 
     <!--contact-->
@@ -905,20 +906,28 @@
         <h3>stay in touch</h3>
         <br />
         <div class="contactContent">
-        <div class="contactintro">
-            <p>My Location:<br />
-                    Atlanta Great Area</p>
-            <p>Email Address:<br/>
-                    63280ster@gmail.com</p>
+            <div class="contactintro">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
+                  </svg>
+                    My Location: <br />The Greater Atlanta Area </p>
+                <p> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                    <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                  </svg>Social Media: <br/>
+                  <a href="https://www.linkedin.com/in/jessica-liu-6864964b/" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg></a>
+                  <a href = "mailto: 63280ster@gmail.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                  </svg></a>
+                    
+                </p>
+            </div>
         </div>
-    </div>
     <footer class="footer">
-            <ul class="socialmedia">
-                    <li>LinkedIn</li>
-                    <li>Email</li>
-            </ul>
             Copyright © 2022 | Coded By Jessica Liu.
-            Last Updated: 02/01/2022
+            Last Updated: 02/15/2022
       </footer>
     
     </section>
